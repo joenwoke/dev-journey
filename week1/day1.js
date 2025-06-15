@@ -7,3 +7,7 @@ let isStudent = true;
 // 2. Operators
 const sum = 20 + 10;
 console.log(sum);
+
+// Checks if two operands are equal in both value and type, without performing type coercion and returning a boolean result
+let isEqual = ('5' === '5');
+console.log(isEqual);
