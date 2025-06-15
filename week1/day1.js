@@ -18,3 +18,5 @@ console.log(difference);
 let quotient = 10/2;
 console.log(quotient);
 
+let product = 20 * 800;
+console.log(product);
