@@ -36,3 +36,10 @@ while (i < 3) {
   console.log("While Loop:", i);
   i++;
 }
+
+// do.....while loop
+let j = 0;
+do {
+  console.log("Do While:", j);
+  j++;
+} while (j < 3);
