@@ -25,6 +25,17 @@ switch (fruit) {
     console.log("Unknown fruit.");
 }
 
+// More conditional statements examples
+let light = "green";
+
+if (light === "green") {
+  console.log("Go!");
+} else if (light === "yellow") {
+  console.log("Slow down.");
+} else {
+  console.log("Stop.");
+}
+
 // Loops - for, do while, while
 for (let i = 1; i <= 5; i++) {
   console.log("Count:", i);
