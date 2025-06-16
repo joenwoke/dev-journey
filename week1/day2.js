@@ -10,3 +10,6 @@ else if (age >=10) {
 else {
     console.log("You are a child");
 }
+
+// Switch statements
+let fruit = "apple";
