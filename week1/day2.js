@@ -13,3 +13,14 @@ else {
 
 // Switch statements
 let fruit = "apple";
+
+switch (fruit) {
+  case "apple":
+    console.log("Apples are sweet.");
+    break;
+  case "banana":
+    console.log("Bananas are rich in potassium.");
+    break;
+  default:
+    console.log("Unknown fruit.");
+}
