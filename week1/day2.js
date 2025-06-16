@@ -24,3 +24,8 @@ switch (fruit) {
   default:
     console.log("Unknown fruit.");
 }
+
+// Loops - for, do while, while
+for (let i = 1; i <= 5; i++) {
+  console.log("Count:", i);
+}
