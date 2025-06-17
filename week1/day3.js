@@ -6,6 +6,12 @@ greet("Joseph");
 
 // Function expression
 const hello = function(name1) {
-    console.log("Hello,", name1);
+    console.log("Hello, ", name1);
 };
 hello("Daniel");
+
+//Arrow functions (ES6)
+const hey = (name2) => {
+    console.log("Hey " + name2);
+};
+hey("Rose");
