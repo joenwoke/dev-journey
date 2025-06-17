@@ -54,7 +54,7 @@ while (i < 3) {
   i++;
 }
 
-// do.....while loop
+// do.....while loop - Always runs once first
 let j = 0;
 do {
   console.log("Do While:", j);
