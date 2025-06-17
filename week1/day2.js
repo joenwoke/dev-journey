@@ -37,6 +37,8 @@ if (light === "green") {
 }
 
 // Loops - for, do while, while
+
+// for loop
 for (let i = 1; i <= 5; i++) {
   console.log("Count:", i);
 }
