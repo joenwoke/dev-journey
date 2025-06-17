@@ -47,7 +47,7 @@ for (let j = 5; j < 15; j++) {
     console.log("Number is :" + j);
 }
 
-//while loop
+//while loop - best when numbr of times to loop is unknown
 let i = 0;
 while (i < 3) {
   console.log("While Loop:", i);
