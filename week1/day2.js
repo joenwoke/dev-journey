@@ -43,6 +43,10 @@ for (let i = 1; i <= 5; i++) {
   console.log("Count:", i);
 }
 
+for (let j = 5; j < 15; j++) {
+    console.log("Number is :" + j);
+}
+
 //while loop
 let i = 0;
 while (i < 3) {
