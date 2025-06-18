@@ -18,3 +18,4 @@ hey("Rose");
 
 // Shorter version of arrow function
 const hey1 = name3 => console.log("Hey " + name3);
+hey1("John");
