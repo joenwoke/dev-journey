@@ -32,3 +32,7 @@ function multiply(c, b) {
 }
 let product = multiply(10, 3);
 console.log("Product:", product)
+
+// Greet user challenge
+const greetUser = userName => console.log("Hello", userName);
+greetUser("Hailee");
