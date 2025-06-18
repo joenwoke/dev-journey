@@ -31,3 +31,4 @@ function multiply(c, b) {
     return c * b;
 }
 let product = multiply(10, 3);
+console.log("Product:", product)
