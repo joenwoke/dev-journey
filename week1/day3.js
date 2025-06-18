@@ -30,3 +30,4 @@ console.log("Sum:", sum);
 function multiply(c, b) {
     return c * b;
 }
+let product = multiply(10, 3);
