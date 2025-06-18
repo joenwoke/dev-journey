@@ -24,3 +24,4 @@ hey1("John");
 function add(a, b) {
     return a + b;
 }
+let sum = add(3, 4)
