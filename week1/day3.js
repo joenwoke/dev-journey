@@ -38,7 +38,7 @@ const greetUser = userName => console.log("Hello", userName);
 greetUser("Hailee");
 
 function getFullName(first, last) {
-    return first + last;
+    return first + " " + last;
 }
 let fullName = getFullName("Joseph", "Nwoke")
 console.log(fullName)
