@@ -22,4 +22,5 @@ hey1("John");
 
 // Return values for functions
 function add(a, b) {
+    return a + b;
 }
