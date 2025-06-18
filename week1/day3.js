@@ -26,3 +26,6 @@ function add(a, b) {
 }
 let sum = add(3, 4);
 console.log("Sum:", sum);
+
+function multiply(c, b) {
+}
