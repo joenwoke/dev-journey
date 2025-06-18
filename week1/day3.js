@@ -15,3 +15,6 @@ const hey = (name2) => {
     console.log("Hey " + name2);
 };
 hey("Rose");
+
+// Shorter version of arrow function
+const hey1 = name3 => console.log("Hey " + name3);
