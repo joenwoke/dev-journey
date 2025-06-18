@@ -36,3 +36,7 @@ console.log("Product:", product)
 // Greet user challenge
 const greetUser = userName => console.log("Hello", userName);
 greetUser("Hailee");
+
+function getFullName(first, last) {
+    return first + last;
+}
