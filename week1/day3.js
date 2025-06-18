@@ -41,3 +41,4 @@ function getFullName(first, last) {
     return first + last;
 }
 let fullName = getFullName("Joseph", "Nwoke")
+console.log(fullName)
