@@ -12,4 +12,8 @@ function localScopeExample() {
     let message = "Hello";
     console.log(message);
 }
-localScopeExample();
+localScopeExample(); // Works
+
+/*
+console.log(message); -> Reference Erros because message is trapped inside the function
+*/
