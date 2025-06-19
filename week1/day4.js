@@ -12,3 +12,4 @@ function localScopeExample() {
     let message = "Hello";
     console.log(message);
 }
+localScopeExample();
