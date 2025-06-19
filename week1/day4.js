@@ -9,5 +9,5 @@ sayLanguage();
 
 // Function/Local scope
 function localScopeExample() {
-
+    let message = "Hello";
 }
