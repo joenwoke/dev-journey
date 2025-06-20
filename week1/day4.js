@@ -30,4 +30,5 @@ if (true) {
 
 // Function challenge
 function outer() {
+    let outerVar = "I am outer"; // Scoped to outer()
 }
