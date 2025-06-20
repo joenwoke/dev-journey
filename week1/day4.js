@@ -37,9 +37,10 @@ function outer() {
     console.log(outerVar); // Works: inner() can access outerVar via closure
     console.log(innerVar); // Works: inner() can access its own variable
   }
-
+  /*
   inner();
   console.log(innerVar); // Error: innerVar is not defined in outer()
+  */
 }
 
 outer();
