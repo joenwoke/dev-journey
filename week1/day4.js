@@ -67,4 +67,8 @@ const hello = function() {
 // Variable hoisting with var
 console.log(a); // undefined
 var a = 10;
-// In JavaScript, declarations (using var, let, or const) are hoisted to the top of their scope, but initializations are not
+/* In JavaScript, declarations (using var, let, or const) are hoisted to the top of their scope, but initializations are not.
+JavaScript sees this as: 
+var a;   // Declaration is hoisted to the top.
+a = 10;  // Assignment stays where it is.
+*/
