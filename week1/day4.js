@@ -56,7 +56,7 @@ function greet() {
 // The entire function is "moved" to the top during compile.
 
 // Function expressions are not hoisted
-hello();
+hello(); // Error: greet is not a function
 
 const hello = function() {
     console.log("Hello");
