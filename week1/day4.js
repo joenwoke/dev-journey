@@ -34,5 +34,6 @@ function outer() {
 
     function inner() {
         let innerVar = "I am inner"; // Scoped to inner()
+        console.log(outerVar); // Works: inner() can access outerVar via closure
     }
 }
