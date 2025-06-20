@@ -47,10 +47,13 @@ outer();
 
 
 // Hoisting
-//Function Declarations are hoisted
+// Function Declarations are hoisted
 greet(); // Works before it is defined
 
 function greet() {
     console.log("Hello");
 }
 // The entire function is "moved" to the top during compile.
+
+// Function expressions are not hoisted
+hello();
