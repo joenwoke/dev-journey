@@ -27,3 +27,7 @@ if (true) {
 - console.log(color);  -> Reference Error because color is trapped inside the if statement
 - var is not block-scoped, it leaks
 */
+
+// Function challenge
+function outer() {
+}
