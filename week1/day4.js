@@ -17,3 +17,8 @@ localScopeExample(); // Works
 /*
 console.log(message); -> Reference Erros because message is trapped inside the function
 */
+
+// Block scope (let and const only)
+if (true) {
+    let color = "blue";
+}
