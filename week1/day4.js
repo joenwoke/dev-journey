@@ -44,3 +44,7 @@ function outer() {
 }
 
 outer();
+
+
+// Hoisting
+greet(); 
