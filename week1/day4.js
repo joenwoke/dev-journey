@@ -47,6 +47,7 @@ outer();
 
 
 // Hoisting
+//Function Declarations are hoisted
 greet(); // Works before it is defined
 
 function greet() {
