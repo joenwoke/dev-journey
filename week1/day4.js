@@ -57,3 +57,7 @@ function greet() {
 
 // Function expressions are not hoisted
 hello();
+
+const hello = function() {
+    console.log("Hello");
+};
