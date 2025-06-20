@@ -74,3 +74,7 @@ var a;   // Declaration is hoisted to the top.
 a = 10;  // Assignment stays where it is.
 
 */
+
+function loginCheck(user, pass) {
+    
+}
