@@ -57,9 +57,14 @@ function greet() {
 
 // Function expressions are not hoisted
 /*
-hello(); // Error: greet is not a function
+hello();  -> Error: greet is not a function
 */
 
 const hello = function() {
     console.log("Hello");
 };
+
+// Variable hoisting with var
+console.log(a); // undefined
+var a = 10;
+// In JavaScript, declarations (using var, let, or const) are hoisted to the top of their scope, but initializations are not
