@@ -47,8 +47,9 @@ outer();
 
 
 // Hoisting
-greet(); 
+greet(); // Works before it is defined
 
 function greet() {
     console.log("Hello");
 }
+// The entire function is "moved" to the top during compile.
