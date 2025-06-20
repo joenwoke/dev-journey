@@ -30,12 +30,16 @@ if (true) {
 
 // Function challenge
 function outer() {
-    let outerVar = "I am outer"; // Scoped to outer()
+  let outerVar = "I am outer"; // Scoped to outer()
 
-    function inner() {
-        let innerVar = "I am inner"; // Scoped to inner()
-        console.log(outerVar); // Works: inner() can access outerVar via closure
-        console.log(innerVar); // Works: inner() can access its own variable
-    }
-    
+  function inner() {
+    let innerVar = "I am inner"; // Scoped to inner()
+    console.log(outerVar); // Works: inner() can access outerVar via closure
+    console.log(innerVar); // Works: inner() can access its own variable
+  }
+
+  inner();
+  console.log(innerVar); // Error: innerVar is not defined in outer()
 }
+
+outer();
