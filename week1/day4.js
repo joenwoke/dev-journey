@@ -23,3 +23,6 @@ if (true) {
     let color = "blue";
     const mood = "happy";
 }
+/*
+console.log(color);  -> Reference Error because color is trapped inside the if statement
+*/
