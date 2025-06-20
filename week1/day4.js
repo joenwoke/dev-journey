@@ -32,6 +32,7 @@ if (true) {
 function outer() {
     let outerVar = "I am outer"; // Scoped to outer()
 
-    function inner() 
+    function inner() {
+        let innerVar = "I am inner"; // Scoped to inner()
     }
 }
