@@ -76,6 +76,8 @@ a = 10;  // Assignment stays where it is.
 */
 
 function loginCheck(user, pass) {
-    if (user === "admin" && pass === "1234")
-        return "Access granted"
+    if (user === "admin" && pass === "1234") {
+        return "Access granted";
+    }
+    return "Access denied";
 }
