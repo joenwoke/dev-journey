@@ -5,3 +5,8 @@ console.log(fruits[0]);
 // To modify this array
 fruits[2] = "Mango";
 console.log(fruits);
+
+/* Array Methods
+push() -> adds to the end*/
+fruits.push("Water melon");
+console.log(fruits);
