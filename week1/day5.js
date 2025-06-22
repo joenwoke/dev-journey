@@ -14,3 +14,11 @@ console.log(fruits);
 // pop() -> remove from the end
 fruits.pop();
 console.log(fruits);
+
+// unshift() -> add to the front
+fruits.unshift("Grape");
+console.log(fruits);
+
+// shift() -> remove from the front
+fruits.shift();
+console.log(fruits);
