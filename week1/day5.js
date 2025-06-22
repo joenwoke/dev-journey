@@ -22,3 +22,7 @@ console.log(fruits);
 // shift() -> remove from the front
 fruits.shift();
 console.log(fruits);
+
+// length -> count the length
+fruits.length;
+console.log(fruits.length);
