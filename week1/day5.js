@@ -30,3 +30,6 @@ console.log(fruits.length);
 // includes() -> checks if value exists
 fruits.includes("Banana");
 console.log(fruits.includes("Banana")); 
+
+// Practice
+let numbers = [10, 20, 30, 40, 50];
