@@ -38,3 +38,4 @@ numbers.unshift(0);
 numbers.pop();
 
 console.log("Length is: " + numbers.length);
+console.log("Includes 30:", numbers.includes(30)); 
