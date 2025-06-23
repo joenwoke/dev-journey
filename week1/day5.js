@@ -42,3 +42,7 @@ console.log("Includes 30:", numbers.includes(30));
 
 // Looping through Arrays
 let nums = [1, 2, 3];
+
+for (let i = 0; i < nums.length; i++) {
+    
+}
