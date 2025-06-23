@@ -33,3 +33,4 @@ console.log(fruits.includes("Banana"));
 
 // Practice
 let numbers = [10, 20, 30, 40, 50];
+numbers.push(60);
