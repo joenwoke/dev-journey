@@ -39,3 +39,6 @@ numbers.pop();
 
 console.log("Length is: " + numbers.length);
 console.log("Includes 30:", numbers.includes(30)); 
+
+// Looping through Arrays
+let nums = [1, 2, 3];
