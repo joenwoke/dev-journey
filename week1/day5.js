@@ -62,3 +62,7 @@ or
 array.forEach((currentValue, index, array) => {
 });
 */
+
+nums.forEach((num, index, arr) => {
+  console.log(`Index: ${index}, Value: ${num}, Full Array: [${arr}]`);
+});
