@@ -9,3 +9,6 @@ let person = {
 
 // To access values
 console.log(person.name);
+
+// Alternatively
+console.log(person["age"]);
