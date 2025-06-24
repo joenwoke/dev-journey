@@ -16,3 +16,6 @@ console.log(person["age"]);
 // Modify values
 person.age = 23;
 console.log(person.age);
+
+person["isStudent"] = false;
+console.log(person.isStudent);
