@@ -51,3 +51,14 @@ for (let i = 0; i < nums.length; i++) {
 nums.forEach(num => {
     console.log("Value:", num);
 });
+
+/* The .forEach() method in JavaScript actually passes three arguments to the callback function:
+
+array.forEach(function(currentValue, index, array) {
+});
+
+or 
+
+array.forEach((currentValue, index, array) => {
+});
+*/
