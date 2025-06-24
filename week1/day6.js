@@ -12,3 +12,7 @@ console.log(person.name);
 
 // Alternatively
 console.log(person["age"]);
+
+// Modify values
+person.age = 23;
+console.log(person.age);
