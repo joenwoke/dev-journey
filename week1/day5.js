@@ -49,4 +49,5 @@ for (let i = 0; i < nums.length; i++) {
 }
 
 nums.forEach(num => {
+    console.log("Value:", num);
 });
