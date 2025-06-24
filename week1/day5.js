@@ -47,3 +47,6 @@ for (let i = 0; i < nums.length; i++) {
     console.log(nums[i]);
     // i = 0, meaning the nums[i], is same as nums[0], which is at index 0 in the array
 }
+
+nums.forEach(num => {
+});
