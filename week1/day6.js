@@ -7,7 +7,7 @@ let person = {
     isStudent: true
 };
 
-// To access values
+// To access values, use dot . or brackets [] for keys.
 console.log(person.name);
 
 // Alternatively
