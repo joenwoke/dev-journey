@@ -22,3 +22,8 @@ console.log(person.isStudent);
 
 person.major = "ITM";
 console.log(person.major);
+
+// Looping through objects
+for (let key in person) {
+    
+}
