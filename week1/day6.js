@@ -21,3 +21,4 @@ person["isStudent"] = false;
 console.log(person.isStudent);
 
 person.major = "ITM";
+console.log(person.major);
