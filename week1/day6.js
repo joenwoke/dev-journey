@@ -36,3 +36,10 @@ let users = [
     { username: "Bolu", score: 200 },
 ];
 console.log(users[1].username);
+
+// Football challenge
+let players = [
+  { name: "Messi", position: "Forward" },
+  { name: "Modric", position: "Midfield" },
+  { name: "Neuer", position: "Goalkeeper" }
+];
