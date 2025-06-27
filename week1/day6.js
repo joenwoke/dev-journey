@@ -29,3 +29,7 @@ for (let key in person) {
 }
 // person[key] here means: use the value of the variable key to access a property of person. 
 // person.key here means: look for a property named "key" (literally) on the person object.
+
+// Objects inside arrays
+let users = [
+]
