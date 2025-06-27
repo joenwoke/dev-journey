@@ -19,3 +19,5 @@ console.log(person.age);
 
 person["isStudent"] = false;
 console.log(person.isStudent);
+
+person.major = "ITM";
