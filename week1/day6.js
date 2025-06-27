@@ -34,4 +34,5 @@ for (let key in person) {
 let users = [
     { username: "Joseph", score: 100 },
     { username: "Bolu", score: 200 },
-]
+];
+console.log(users[1].username);
