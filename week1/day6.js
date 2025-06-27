@@ -25,5 +25,5 @@ console.log(person.major);
 
 // Looping through objects
 for (let key in person) {
-    
+    console.log(key + ":" + person[key]);
 }
