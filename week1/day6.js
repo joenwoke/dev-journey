@@ -32,4 +32,5 @@ for (let key in person) {
 
 // Objects inside arrays
 let users = [
+    { username: "Joseph", score: 100 },
 ]
