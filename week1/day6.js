@@ -60,3 +60,6 @@ players.pop();
 players.forEach (player => {
     console.log(player.name + " plays " + player.position);
 });
+
+// Change Messi's position
+players[0].position = "Centerback";
