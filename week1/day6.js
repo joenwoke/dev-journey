@@ -54,3 +54,9 @@ players.push({name: "Ramos", position: "Defence" });
 players.forEach (player => {
     console.log(player.name + " plays " + player.position);
 });
+
+// Remove the last player
+players.pop();
+players.forEach (player => {
+    console.log(player.name + " plays " + player.position);
+});
