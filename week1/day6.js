@@ -66,7 +66,7 @@ players[0].position = "Centerback";
 players.forEach(player => {
   console.log(player.name + " plays " + player.position);
 });
-// Alternatively
+// Alternatively, check if player's name is messi and change the position using if statement
 players.forEach(player => {
   if (player.name === "Messi") {
     player.position = "Striker";
