@@ -72,3 +72,6 @@ players.forEach(player => {
     player.position = "Striker";
   }
 });
+players.forEach(player => {
+  console.log(player.name + " plays " + player.position);
+});
