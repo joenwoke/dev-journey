@@ -51,3 +51,6 @@ players.forEach (player => {
 // Challenge
 // Add new player to the array
 players.push({name: "Ramos", position: "Defence" });
+players.forEach (player => {
+    console.log(player.name + " plays " + player.position);
+});
