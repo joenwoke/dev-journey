@@ -45,4 +45,5 @@ let players = [
 ];
 
 players.forEach (player => {
-})
+    console.log(player.name + " plays " + player.position);
+});
