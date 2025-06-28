@@ -43,3 +43,6 @@ let players = [
   { name: "Modric", position: "Midfield" },
   { name: "Neuer", position: "Goalkeeper" }
 ];
+
+players.forEach (player => {
+})
