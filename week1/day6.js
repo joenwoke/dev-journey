@@ -85,3 +85,5 @@ let inventory = {
 
 inventory.bananas += 3;
 console.log(inventory.bananas);
+
+inventory["grapes"] = 4;
