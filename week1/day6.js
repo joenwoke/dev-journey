@@ -82,3 +82,5 @@ let inventory = {
     bananas: 5,
     oranges: 8
 };
+
+inventory.bananas += 3;
