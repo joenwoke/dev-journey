@@ -92,3 +92,11 @@ console.log(inventory.grapes)
 for (let item in inventory) {
     console.log(`${item}: ${inventory[item]}`);
 }
+
+/* Alternatively = forEach method can be used to print to improve UX
+
+Object.keys(inventory).forEach(key => {
+  console.log(`${key}: ${inventory[key]}`);
+});
+
+?*
