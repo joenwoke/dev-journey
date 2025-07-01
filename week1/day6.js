@@ -88,3 +88,7 @@ console.log(inventory.bananas);
 
 inventory["grapes"] = 4;
 console.log(inventory.grapes)
+
+for (let item in inventory) {
+    
+}
