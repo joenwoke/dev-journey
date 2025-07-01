@@ -78,5 +78,7 @@ players.forEach(player => {
 
 // Inventory system challenge
 let inventory = {
-    
-}
+    apples,
+    bananas,
+    oranges
+};
