@@ -75,3 +75,8 @@ players.forEach(player => {
 players.forEach(player => {
   console.log(player.name + " plays " + player.position);
 });
+
+// Inventory system challenge
+let inventory = {
+    
+}
