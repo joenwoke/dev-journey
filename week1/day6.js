@@ -98,5 +98,4 @@ for (let item in inventory) {
 Object.keys(inventory).forEach(key => {
   console.log(`${key}: ${inventory[key]}`);
 });
-
-?*
+*/
