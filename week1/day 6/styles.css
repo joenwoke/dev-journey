@@ -1,0 +1,7 @@
+.done {
+  text-decoration: line-through;
+  opacity: .6;
+}
+button { 
+    cursor: pointer; 
+}
