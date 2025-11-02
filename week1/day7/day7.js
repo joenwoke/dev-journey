@@ -1,10 +1,37 @@
-// Document Object Model - DOM Manipulation and events
+// ----- 1.  Select elements -----
+const title = document.querySelector("#title");
+const toggle = document.querySelector("#toggle");
+const greet = document.querySelector("#greet");
+const form = document.querySelector("#todoForm");
+const input = document.querySelector("#todoInput");
+const list = document.querySelector("#todoList");
 
-// Accessing elements in the DOM
-const title = document.getElementById("title");
-const button = document.getElementById("btn");
+// ----- 2.  Basic text + style manipulation -----
+title.textContent = "Hello, Joseph Nwoke";
 
-console.log(title);
+// Toggle paragraph visibility
+toggle.addEventListener("click", () => {
+  greet.classList.toggle("hidden");
+  greet.textContent = greet.classList.contains("hidden")
+    ? "Greeting hidden!"
+    : "Nice to see you again!";
+});
 
-// Changin content in DOM
-title.textContent = "Hello, Joseph!";
+// ----- 3.  Dynamic list rendering -----
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const task = input.value.trim();
+  if (!task) return;
+
+  const li = document.createElement("li");
+  li.textContent = task;
+
+  // mark as done
+  li.addEventListener("click", () => li.classList.toggle("done"));
+
+  // remove on double click
+  li.addEventListener("dblclick", () => li.remove());
+
+  list.appendChild(li);
+  form.reset();
+});
