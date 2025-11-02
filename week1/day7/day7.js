@@ -32,6 +32,15 @@ form.addEventListener("submit", (e) => {
   // remove on double click
   li.addEventListener("dblclick", () => li.remove());
 
+  // delete button
+  const deleteBtn = document.createElement("button");
+  deleteBtn.textContent = "Delete";
+  deleteBtn.addEventListener("click", (e) => {
+    e.stopPropagation(); // prevent marking as done
+    li.remove();
+  });
+  li.appendChild(deleteBtn);
+
   list.appendChild(li);
   form.reset();
 });
