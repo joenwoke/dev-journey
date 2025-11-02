@@ -7,6 +7,22 @@ const form = document.querySelector("#taskForm");
 const input = document.querySelector("#taskInput");
 const list = document.querySelector("#taskList");
 
+function countDone(arr) {
+  // Count how many tasks where done === true
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].done === true) count++;
+  }
+  return count;
+}
+
+function updateCounts() {
+  const counts = document.querySelector('#counts');
+  const done = countDone(tasks);
+  const total = tasks.length;
+  counts.textContent = `Completed ${done} / Total ${total}`;
+}
+
 // === RENDER UI ===
 function render() {
   list.innerHTML = ""; // clear UI before re-drawing
