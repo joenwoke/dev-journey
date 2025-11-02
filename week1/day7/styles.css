@@ -1,0 +1,18 @@
+body { 
+    font-family: Inter, sans-serif; 
+    margin: 2rem; 
+}
+
+button { 
+    margin-left: .5rem; 
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: .6;
+}
